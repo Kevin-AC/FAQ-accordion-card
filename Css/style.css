@@ -27,11 +27,10 @@ body{
 }
 .container{
     width: 330px;
-    min-height: 536px;
+    min-height: 520px;
     background-color: var(--white);
     border-radius: 1.5rem;
     padding:1.5rem;
-    margin-bottom: 1.8rem;
     box-shadow: 0 0.6rem 3.4rem var(--Verydarkdesaturatedblue);
 }
 
@@ -96,6 +95,7 @@ body{
         background-position-x:536px;
         background-position-y:281px;
         overflow: hidden;
+        margin:0 0 1rem 0;
     }
     .container__info,.container__top{
         width: 100%;
@@ -139,6 +139,7 @@ body{
     text-align: center;
     color: var(--white);
     font-weight: 700;
+    margin-bottom: 1rem;
  }
 .attribution a { 
     color:var(--Softred); 
